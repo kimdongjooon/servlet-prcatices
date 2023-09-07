@@ -10,5 +10,6 @@
 		<module>helloweb</module>
 		<module>emaillist01</module>
 		<module>gusetbook01</module>
+		<module>emaillist02</module>
 	</modules>
 </project>
