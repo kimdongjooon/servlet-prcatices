@@ -11,5 +11,7 @@
 		<module>emaillist01</module>
 		<module>gusetbook01</module>
 		<module>emaillist02</module>
+
+		<module>guestbook01</module>
 	</modules>
 </project>
