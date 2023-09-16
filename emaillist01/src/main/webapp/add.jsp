@@ -6,6 +6,8 @@
 	pageEncoding="UTF-8"%>
 
 <%
+
+
 	request.setCharacterEncoding("utf-8");
 	String firstName = request.getParameter("fn");
 	String lastName = request.getParameter("ln");

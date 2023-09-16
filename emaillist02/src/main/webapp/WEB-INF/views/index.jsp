@@ -1,4 +1,4 @@
-﻿<%@page import="com.poscodx.emaillist.vo.EmaillistVo" %>
+<%@page import="com.poscodx.emaillist.vo.EmaillistVo" %>
 <%@page import="com.poscodx.emaillist.dao.EmaillistDao" %>
 <%@page import="java.util.List" %>
 

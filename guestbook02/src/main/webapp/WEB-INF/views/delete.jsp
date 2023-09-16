@@ -6,14 +6,14 @@
     pageEncoding="UTF-8"%>
     
 <%
-	request.setCharacterEncoding("utf-8");
-	int no = Integer.parseInt(request.getParameter("id"));
-	String password = request.getParameter("password");
-	
-	new GuestBookDao().deleteById(no, password);
-	
-	response.sendRedirect("/guestbook01/index.jsp");
-%>
+    request.setCharacterEncoding("utf-8");
+    	int no = Integer.parseInt(request.getParameter("id"));
+    	String password = request.getParameter("password");
+    	
+    	new GuestBookDao().deleteById(no, password);
+    	
+    	response.sendRedirect("/guestbook01/index.jsp");
+    %>
 <!DOCTYPE html>
 <html>
 <head>
